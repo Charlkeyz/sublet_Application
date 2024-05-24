@@ -1,0 +1,104 @@
+.hero_section {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 100%;
+  padding: 2rem;
+  /* height: 100vh; */
+  background-color: #f2f2f1;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/SubletImages/Ellipse 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.div1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #808080; */
+}
+.div2 {
+  height: 200px;
+  width: 50%;
+  padding: 1rem;
+  /* background-color: #808080; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.div3 {
+  width: 30px;
+  padding: 2rem;
+  height: 30px;
+  border-radius: 200px;
+  background-color: #e6e6e6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature_heaading {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  font-family: "Plus Jakarta Sans";
+  color: #000000;
+}
+.feature_para {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0em;
+  color: #808080;
+}
+.herotitle {
+  margin-top: 7%;
+  padding: 2rem;
+}
+.herotitle h1 {
+  font-size: 35px;
+  font-family: "Roboto serif";
+  text-align: center;
+}
+@media screen and (max-width: 760px) {
+  .hero_section {
+    /* height: 100vh; */
+    /* background-color: orangered; */
+  }
+
+  .div1 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .div2 {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+
+    /* background-color: #000000; */
+  }
+  .herotitle h1 {
+    font-size: 25px;
+    font-family: "Roboto serif";
+    text-align: center;
+  }
+  .feature_heaading {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+  .feature_para {
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 1.7;
+  }
+}

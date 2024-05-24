@@ -1,0 +1,261 @@
+.welcomepagescreen {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 30px;
+  /* background-color: orange; */
+}
+.innerwelcompagescreencontainer {
+  width: 80%;
+  height: 600px;
+  background-image: linear-gradient(
+    rgb(107, 61, 144) 0%,
+    rgb(200, 16, 46) 100%
+  );
+
+  /* margin-top: 90px; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondinnercontainer {
+  width: 60%;
+  height: 530px;
+  margin-top: 25px;
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailsinputcontainer {
+  /* position: absolute;
+  top: 90px; */
+  width: 60%;
+  height: 440px;
+  background-color: #ffffff1a;
+
+  box-shadow: 0px 4px 35px 0px #00000040;
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcomepagescreenContent {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.welcomepagescreenContent h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  color: white;
+}
+.welcomepagescreenContent p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0em;
+}
+/* .inputformcontainer {
+  width: 100%;
+  background-color: green;
+  height: 400px;
+} */
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 60px;
+  margin-bottom: 20px;
+  /* background-color: aqua; */
+}
+.frameline {
+  border-top: 1px solid #e6e6e6;
+  width: 150px;
+}
+.framelineparagraph {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: black;
+}
+.input_Details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+  /* background-color: blue; */
+}
+.input_Details input {
+  width: 100%;
+  margin: 15px;
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  outline-color: unset;
+}
+.input_Details input::placeholder {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  color: #808080;
+}
+
+.forgot {
+  width: 90%;
+  /* background-color: tomato; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.frameInput1 {
+  width: 20px;
+  height: 20px;
+
+  background-color: #cc8f99;
+}
+
+.frameInput2 input[type="checkbox"]:checked {
+  background-color: rgb(#d39da5);
+  border: none;
+}
+.frameInput2 input[type="checkbox"]:checked:after {
+  content: "\2713";
+  color: white;
+}
+.frameInput2 input[type="checkbox"] {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  appearance: none;
+  border-radius: 10%;
+  box-shadow: none;
+  font-size: 1em;
+}
+
+.frameInput2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.keep {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+.already {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+}
+.alreadyLink a {
+  color: #000;
+}
+.alreadyLink a:active {
+  color: #0bdaa6;
+}
+.welcomeButton {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.dontHaveAnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+.dontHaveAnContainer span {
+  color: #af97a3;
+}
+
+.dontHaveAnContainer a {
+  text-decoration: none;
+  color: #ca8a97;
+}
+.login_link {
+  text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+  .welcomepagescreen {
+    align-items: center;
+    /* padding: unset;
+    align-items: center; */
+    justify-content: unset;
+  }
+
+  .innerwelcompagescreencontainer {
+    /* display: u; */
+    /* background-color: chocolate; */
+    padding: 2rem;
+    width: unset;
+    background-image: unset;
+    align-items: center;
+    margin-top: unset;
+  }
+  .detailsinputcontainer {
+    /* padding: 2rem; */
+    width: unset;
+    height: unset;
+    /* margin-left: 90px; */
+  }
+  .inputformcontainer {
+    /* background-color: green; */
+    padding: 1rem;
+    height: auto;
+  }
+  .welcomepagescreenContent h1 {
+    color: #5b0e0e;
+  }
+  .welcomepagescreenContent p {
+    color: #5b0e0e;
+  }
+  /* .welcomepagescreenContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  } */
+}
+/* @media screen and (max-width: 450px) {
+  .input_Details {
+    align-items: unset;
+  }
+} */
